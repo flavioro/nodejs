@@ -5,6 +5,12 @@ nodejs, commands
 
 node dist/shared/infra/http/server.js
 
+Run service
 pm2 start dist/shared/infra/http/server.js --name power-back
 
+Alwasy restart
+pm2 startup systemd
 
+pm2 logs
+
+pm2 monit
