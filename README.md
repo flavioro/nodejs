@@ -17,6 +17,7 @@ pm2 monit
 
 Create folder 'Util' with:
  - Work files (pdf, csv, json, xml, figure);
+ - Rename multiple files (extension and name);
  - Public APIs:
   - github
   - https://github.com/public-apis/public-apis, 
