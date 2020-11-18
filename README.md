@@ -14,3 +14,12 @@ pm2 startup systemd
 pm2 logs
 
 pm2 monit
+
+Create folder 'Util' with:
+ - Work files (pdf, csv, json, xml, figure);
+ - Public APIs:
+  - github
+  - https://github.com/public-apis/public-apis, 
+  - https://apilist.fun/category/business
+  - https://any-api.com/
+  - https://github.com/BrasilAPI/BrasilAPI
