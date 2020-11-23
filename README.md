@@ -24,3 +24,6 @@ Create folder 'Util' with:
   - https://apilist.fun/category/business
   - https://any-api.com/
   - https://github.com/BrasilAPI/BrasilAPI
+
+https://www.npmjs.com/package/json-server
+npx json-server --watch server.json --port 3333 -w -d 2000
