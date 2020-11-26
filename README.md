@@ -2,7 +2,7 @@
 
 nodejs, commands 
 
-*** C O N F I G ****
+*** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
  - yarn add eslint -D
  - yarn eslint --init
  - yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
