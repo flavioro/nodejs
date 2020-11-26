@@ -2,6 +2,10 @@
 
 nodejs, commands 
 
+*** C O N F I G ****
+yarn add eslint -D
+yarn eslint --init
+yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
 
 node dist/shared/infra/http/server.js
 
