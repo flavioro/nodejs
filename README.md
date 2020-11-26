@@ -7,6 +7,10 @@ nodejs, commands
  - yarn eslint --init
  - yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
 
+ + Config add in file .eslintrc.json 
+ + create file .eslintignore
+ + create file prettier.config.js
+
 node dist/shared/infra/http/server.js
 
 Run service
