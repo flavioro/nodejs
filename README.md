@@ -4,6 +4,13 @@ nodejs, commands
 
 *** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
  
+  **JSON.stringify() ** 
+   ``` 
+ var obj = { name: "John", age: 30, city: "New York" };
+var myJSON = JSON.stringify(obj);
+RESULT: {"name":"John","age":30,"city":"New York"}
+ ``` 
+ 
   **JSON.parse() **
  ``` 
  const json = '{"result":true, "count":42}';
