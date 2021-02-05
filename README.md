@@ -3,6 +3,19 @@
 nodejs, commands 
 
 *** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
+ 
+  **JSON.parse() **
+ ``` 
+ const json = '{"result":true, "count":42}';
+const obj = JSON.parse(json);
+
+console.log(obj.count);
+// expected output: 42
+
+console.log(obj.result);
+// expected output: true
+ ``` 
+ 
  - yarn add eslint -D
  - yarn eslint --init
  - yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
