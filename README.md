@@ -61,7 +61,17 @@ pm2 startup systemd
 pm2 logs
 pm2 monit
  ```
+ 
+* Restart service pm2
+ ```
+pm2 restart power-back
+ ```
 
+* Stopped service pm2
+ ```
+pm2 stop power-back
+ ```
+ 
 Create folder 'Util' with:
  - Work files (pdf, csv, json, xml, figure);
  - Rename multiple files (extension and name);
