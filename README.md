@@ -4,21 +4,21 @@ nodejs, commands
 
 *** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
  
- ###count the number of keys/properties of an object in JavaScript###
+### count the number of keys/properties of an object in JavaScript###
  ``` 
 var obj = { name: "John", age: 30, city: "New York" };
 Object.keys(obj).length //
  ``` 
  
  
-  **JSON.stringify() ** 
+ ** JSON.stringify() ** 
    ``` 
  var obj = { name: "John", age: 30, city: "New York" };
 var myJSON = JSON.stringify(obj);
 RESULT: {"name":"John","age":30,"city":"New York"}
  ``` 
  
-  **JSON.parse() **
+ ** JSON.parse() **
  ``` 
  const json = '{"result":true, "count":42}';
 const obj = JSON.parse(json);
