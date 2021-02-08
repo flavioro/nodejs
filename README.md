@@ -41,17 +41,26 @@ console.log(obj.result);
  + create file .eslintignore
  + create file prettier.config.js
 
+* Run app after build 
+ ```
 node dist/shared/infra/http/server.js
-
+ ```
+ 
 Run service
+ ```
 pm2 start dist/shared/infra/http/server.js --name power-back
-
-Alwasy restart
+ ```
+ 
+* Alwasy restart
+ ```
 pm2 startup systemd
+ ```
 
+* Other commands pm2
+ ```
 pm2 logs
-
 pm2 monit
+ ```
 
 Create folder 'Util' with:
  - Work files (pdf, csv, json, xml, figure);
@@ -63,14 +72,17 @@ Create folder 'Util' with:
   - https://any-api.com/
   - https://github.com/BrasilAPI/BrasilAPI
 
-https://www.npmjs.com/package/json-server
+
+* https://www.npmjs.com/package/json-server
+  ```
 npx json-server --watch server.json --port 3333 -w -d 2000
-
- How to update all dependencies in package.json
- - yarn upgrade-interactive
- - https://classic.yarnpkg.com/en/docs/cli/upgrade-interactive/
-
-
+  ```
+  
+ How to update all dependencies in package.json (https://classic.yarnpkg.com/en/docs/cli/upgrade-interactive/)
+  ```
+ yarn upgrade-interactive
+  ```
+ 
 **API - P H O T O S**
 
 https://picsum.photos/
