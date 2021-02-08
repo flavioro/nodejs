@@ -84,9 +84,9 @@ Create folder 'Util' with:
 
 
 * https://www.npmjs.com/package/json-server
-  ```
+```
 npx json-server --watch server.json --port 3333 -w -d 2000
-  ```
+```
   
  How to update all dependencies in package.json (https://classic.yarnpkg.com/en/docs/cli/upgrade-interactive/)
   ```
