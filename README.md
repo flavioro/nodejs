@@ -30,9 +30,12 @@ console.log(obj.result);
 // expected output: true
  ``` 
  
- - yarn add eslint -D
- - yarn eslint --init
- - yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
+ * Configuration eslint
+ ```
+ yarn add eslint -D
+ yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
+ yarn eslint --init
+ ```
 
  + Config add in file .eslintrc.json 
  + create file .eslintignore
