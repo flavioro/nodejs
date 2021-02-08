@@ -99,3 +99,8 @@ https://picsum.photos/
  n stable
  PATH="PATH"
  ```
+
+* npm-cache
+ ```
+npm cache verify
+ ```
