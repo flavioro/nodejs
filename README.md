@@ -86,3 +86,16 @@ npx json-server --watch server.json --port 3333 -w -d 2000
 **API - P H O T O S**
 
 https://picsum.photos/
+
+* Update NPM
+ ```
+ npm install -g npm
+ ```
+ 
+ * Update NodeJs
+ ```
+ npm cache clean -f
+ npm install -g n
+ n stable
+ PATH="PATH"
+ ```
