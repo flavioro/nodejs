@@ -45,33 +45,7 @@ console.log(obj.result);
  ```
 node dist/shared/infra/http/server.js
  ```
- 
-Run service pm2
- ```
-pm2 start dist/shared/infra/http/server.js --name power-back
- ```
- 
-* Alwasy restart pm2
- ```
-pm2 startup systemd
- ```
 
-* Other commands pm2
- ```
-pm2 logs
-pm2 monit
- ```
- 
-* Restart service pm2
- ```
-pm2 restart power-back
- ```
-
-* Stopped service pm2
- ```
-pm2 stop power-back
- ```
- 
 Create folder 'Util' with:
  - Work files (pdf, csv, json, xml, figure);
  - Rename multiple files (extension and name);
