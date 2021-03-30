@@ -6,6 +6,11 @@
 nodejs, commands 
 
 *** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
+
+### Update npm
+``` 
+sudo npm install -g npm
+``` 
  
 ### count the number of keys/properties of an object in JavaScript###
  ``` 
