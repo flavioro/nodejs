@@ -19,6 +19,11 @@ Before creating a new migration you need to setup your connection options proper
 ### Run Production
 ./node_modules/.bin/typeorm migration:run
 
+### Revert (undo) last execution
+```
+yarn typeorm migration:revert
+```
+
 ### Environment developer show commands (helper)
 ```
 yarn typeorm 
