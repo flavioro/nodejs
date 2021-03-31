@@ -13,4 +13,7 @@ yarn typeorm
 ```
 yarn typeorm migration:show
 ```
-
+### Create migrations
+```
+yarn typeorm migration:create -n CreateUser
+```
