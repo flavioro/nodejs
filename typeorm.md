@@ -30,3 +30,7 @@ yarn typeorm migration:show
 ```
 yarn typeorm migration:create -n CreateUser
 ```
+### Add field to table (migrations)
+```
+yarn typeorm migration:create -n addPhoneFieldToUsers
+```
