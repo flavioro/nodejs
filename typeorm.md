@@ -6,6 +6,14 @@
 "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
 ```
 
+### Pre-requisites: Installing CLI (ormconfig.json)
+Before creating a new migration you need to setup your connection options properly:
+```json
+"cli": {
+  "migrationsDir": "./src/migrations/"
+}
+```
+
 ### Run Production
 ./node_modules/.bin/typeorm migration:run
 
