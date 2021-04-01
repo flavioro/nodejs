@@ -1,6 +1,9 @@
 # Typeorm
 <img src="https://miro.medium.com/max/683/1*XzJfDO6t-nCRqrWqv64t-g.png" width="450px">
 
+### Example create table and add column in project 
+https://github.com/flavioro/power-back
+
 ### Configurations (package.json) used typescript in scripts
 ```json
 "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
@@ -17,7 +20,10 @@ Before creating a new migration you need to setup your connection options proper
 ```
 
 ### Run Production
+```
 ./node_modules/.bin/typeorm migration:run
+yarn typeorm migration:run 
+```
 
 ### Revert (undo) last execution
 ```
