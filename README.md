@@ -3,6 +3,25 @@
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
 
+### Debug VSCode in launch.json
+```json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Launch Program",
+      "skipFiles": [ "<node_internals>/**" ],
+      "outFiles": [ "${workspaceFolder}/**/*.js" ]
+    }
+  ]
+}
+```
+
 ### NPM: Install Specific Version of a Package
 ```
 npm install express@4.16.1
