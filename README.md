@@ -3,7 +3,7 @@
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
 
-### Debug VSCode in launch.json
+### Debug VSCode in file launch.json
 ```json
 {
   // Use IntelliSense to learn about possible attributes.
@@ -20,6 +20,12 @@
     }
   ]
 }
+```
+### Before add this (--inspect) in package.json
+```json
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
 ```
 
 ### NPM: Install Specific Version of a Package
