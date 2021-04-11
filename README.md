@@ -1,7 +1,43 @@
-# N O D E J S - 
 <!--- ![](https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png) -->
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
+
+### Routes (api rest) with Express (Post, Put, Get, Delete)
+
+See https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/ or
+CRUD here https://github.com/flavioro/ignite-template-conceitos-do-nodejs-main
+
+Middlewares
+https://github.com/flavioro/ignite-template-conceitos-do-nodejs-main
+
+## Types of REST API Parameters
+### Query & Route Params
+```
+http://minhaapi.com/movies?name=transformes&duration=2&actor=octimusprime
+```
+```js
+/**
+* três tipos de parâmetros
+* Query params = ?teste=1
+* Route params = /users/1
+* Request Body = { "name": "Thiago" }
+*/
+  
+// Query params = ?name=thiago
+// fazer a requisição no navegador: http://localhost:3333/users/?name=Thiago
+server.get("/users", (req, res) => {
+  const name = req.query.name;
+	return res.json({ message:  `Hello ${name}` });
+});
+
+// Route Params = /users/1
+// fazer a requisição no navegador: http://localhost:3333/users/1
+server.get("/users/:id", (req, res) => {
+// const id = req.params.id;
+const { id } = req.params; // desestruturado com ES06
+	return res.json({ message:  `Buscando o usuário de ID: ${id}`});
+});
+```
 
 ### Debug VSCode in file launch.json
 ```json
