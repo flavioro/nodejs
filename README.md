@@ -38,6 +38,7 @@ const { id } = req.params; // desestruturado com ES06
 	return res.json({ message:  `Buscando o usuário de ID: ${id}`});
 });
 ```
+See here https://rapidapi.com/blog/api-glossary/parameters/
 
 ### Debug VSCode in file launch.json
 ```json
