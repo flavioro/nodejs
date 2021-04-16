@@ -2,6 +2,8 @@
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
 
+### npm link (https://medium.com/dailyjs/how-to-use-npm-link-7375b6219557 or https://flaviocopes.com/npm-local-package/)
+
 ### Routes (api rest) with Express (Post, Put, Get, Delete)
 
 See https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/ or
