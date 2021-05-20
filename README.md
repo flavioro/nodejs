@@ -105,32 +105,6 @@ npm install express@4.16.1
 sudo npm install -g npm
 ``` 
  
-### count the number of keys/properties of an object in JavaScript###
- ``` 
-var obj = { name: "John", age: 30, city: "New York" };
-Object.keys(obj).length //
- ``` 
- 
- 
- ** JSON.stringify() ** 
-   ``` 
- var obj = { name: "John", age: 30, city: "New York" };
-var myJSON = JSON.stringify(obj);
-RESULT: {"name":"John","age":30,"city":"New York"}
- ``` 
- 
- ** JSON.parse() **
- ``` 
- const json = '{"result":true, "count":42}';
-const obj = JSON.parse(json);
-
-console.log(obj.count);
-// expected output: 42
-
-console.log(obj.result);
-// expected output: true
- ``` 
- 
  * Configuration eslint
  ```
  yarn add eslint -D
