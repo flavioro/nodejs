@@ -27,3 +27,7 @@ To typescript add
 ```
 yarn add ts-jest -D
 ```
+In file 'jest.config.ts' add
+  ```ts
+  preset: "ts-jest",
+  ```
