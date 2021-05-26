@@ -12,9 +12,18 @@
 
 TDD - Test Driven Development
 
-# Install Jest
+### Install Jest
 ```
 yarn jest -D
 or
 yarn jest @types/jest -D
+```
+### Inicialize Jest
+```
+yarn jest --init
+```
+
+To typescript add
+```
+yarn add ts-jest -D
 ```
