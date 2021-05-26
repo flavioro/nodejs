@@ -113,6 +113,14 @@ sudo npm install -g npm
  ```
 
  + Config add in file .eslintrc.json 
+ + Add in .eslintrc.json lib to test code (here jest)
+ ```
+     "env": {
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+ ```
  + create file .eslintignore
  + create file prettier.config.js
 
