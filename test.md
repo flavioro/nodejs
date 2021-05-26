@@ -27,7 +27,11 @@ To typescript add
 ```
 yarn add ts-jest -D
 ```
-In file 'jest.config.ts' add
+In file 'jest.config.ts' configure
   ```ts
   preset: "ts-jest",
+  
+    testMatch: [
+    "**/*.spec.ts"
+  ],
   ```
