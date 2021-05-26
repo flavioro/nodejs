@@ -2,7 +2,7 @@
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
 
-### Configuration eslint, prettier
+### Configuration eslint, prettier (** conflict prrettier and eslint, not install prettier)
  ```
  yarn add eslint -D
  yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
