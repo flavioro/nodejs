@@ -2,6 +2,8 @@
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
 
+*** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
+
 ### Configuration eslint, prettier (** conflict prrettier and eslint, not install prettier)
  ```
  yarn add eslint -D
@@ -127,8 +129,6 @@ Or https://github.com/flavioro/ignite-template-conceitos-do-nodejs-main
 ```
 npm install express@4.16.1
 ```
-
-*** C O N F I G **** More detais in https://www.youtube.com/watch?v=1nVUfZg2dSA
 
 ### Update npm
 ``` 
