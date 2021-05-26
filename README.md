@@ -2,6 +2,25 @@
 
 <img src="https://www.simform.com/wp-content/uploads/2019/11/Node.JS-Use-Cases-Cover-Image.png" width="750px">
 
+### Configuration eslint, prettier
+ ```
+ yarn add eslint -D
+ yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
+ yarn eslint --init
+ ```
+
+ + Config add in file .eslintrc.json 
+ + Add in .eslintrc.json lib to test code (here jest)
+ ```
+     "env": {
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+ ```
+ + create file .eslintignore
+ + create file prettier.config.js
+
 ### Update NodeJs (Windows), https://community.chocolatey.org/packages/nodejs#versionhistory
 
 ### npm link (https://medium.com/dailyjs/how-to-use-npm-link-7375b6219557 or https://flaviocopes.com/npm-local-package/)
@@ -105,25 +124,6 @@ npm install express@4.16.1
 sudo npm install -g npm
 ``` 
  
- * Configuration eslint
- ```
- yarn add eslint -D
- yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
- yarn eslint --init
- ```
-
- + Config add in file .eslintrc.json 
- + Add in .eslintrc.json lib to test code (here jest)
- ```
-     "env": {
-        "es2021": true,
-        "node": true,
-        "jest": true
-    },
- ```
- + create file .eslintignore
- + create file prettier.config.js
-
 * Run app after build 
  ```
 node dist/shared/infra/http/server.js
