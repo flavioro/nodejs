@@ -31,7 +31,7 @@ In file 'jest.config.ts' configure
   ```ts
   preset: "ts-jest",
   
-    testMatch: [
-    "**/*.spec.ts"
+  testMatch: [
+   "**/*.spec.ts"
   ],
   ```
