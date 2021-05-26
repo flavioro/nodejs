@@ -10,9 +10,6 @@
  ```
 
  + Config add in file .eslintrc.json (add this file, files and folder, eslint not correction)
- ```
- node_modules
- ```
  + Add in .eslintrc.json lib to test code (here jest)
  ```
      "env": {
@@ -22,7 +19,18 @@
     },
  ```
  + create file .eslintignore
+ ```
+ node_modules
+ ```
  + create file prettier.config.js
+ ```js
+ module.exports = {
+  semi: false,
+  SingleQuote: true,
+  trailingComma: 'none',
+  endOfLine: 'auto'
+}
+```
 
 ### Update NodeJs (Windows), https://community.chocolatey.org/packages/nodejs#versionhistory
 
