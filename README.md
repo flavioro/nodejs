@@ -9,7 +9,10 @@
  yarn eslint --init
  ```
 
- + Config add in file .eslintrc.json 
+ + Config add in file .eslintrc.json (add this file, files and folder, eslint not correction)
+ ```
+ node_modules
+ ```
  + Add in .eslintrc.json lib to test code (here jest)
  ```
      "env": {
